@@ -1,0 +1,38 @@
+<!-- template/login.html -->
+    {% extends 'base.html' %}
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="hero">
+    <div class="highway">
+    </div>
+</div>
+    {% block title %} Sign in {% endblock %}
+    {% block content %}
+    <div class="row">
+        <div class="col-md-8 mx-auto social-container my-2 order-md-1">
+<!--            <button class="btn btn-danger  mb-2">-->
+<!--                <a href="#">Register</a>-->
+<!--            </button>-->
+            <button class="btn btn-primary mb-2">
+                <a href="{% url 'social:begin' 'facebook' %}">Login with Facebook</a>
+            </button>
+<!--            <button class="btn btn-info mb-2">-->
+<!--                <a href="#">Login with LinkedIn</a>-->
+<!--            </button>-->
+        </div>
+    </div>
+    </div>
+    {% endblock %}
+
+</body>
+</html>
+
+

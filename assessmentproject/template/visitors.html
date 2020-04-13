@@ -1,0 +1,67 @@
+{% load static %}
+
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+</head>
+    <body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-teal w3-bar-block" style="width:20%">
+
+<!--      <h3 class="w3-bar-item bg-success text-white">GROWTH PLUG</h3>-->
+<!--<h5><a href="#" class="w3-bar-item w3-button font-weight-bold "> <span class="fa fa-fw fa-home"> </span> Dashboard</a></h5>-->
+<!--       <h5> <a href="{% url 'home' %}" class="w3-bar-item w3-button font-weight-bold"> <span class="fa fa-globe"> </span> Website</a></h5>-->
+<!--       <h5> <a href="#" class="w3-bar-item w3-button font-weight-bold "> <span class="fa fa-envelope"> </span> Visitors</a></h5>-->
+<!--      <h5>  <a href="#" class="w3-bar-item w3-button font-weight-bold"> <span class="fa fa-fw fa-user"> </span> Reviews</a></h5>-->
+<!--       <h5> <a href="#" class="w3-bar-item w3-button font-weight-bold"> <span class="fa fa-globe"> </span> Listing</a></h5>-->
+<!--      <h5>  <a href="#" class="w3-bar-item w3-button font-weight-bold"> <span class="fa fa-envelope"> </span> Appointment</a></h5>-->
+<!--       <h5> <a href="#" class="w3-bar-item w3-button font-weight-bold"> <span class="fa fa-fw fa-user"> </span> Settings</a></h5>-->
+
+    </div>
+
+    <!-- Page Content -->
+        <div style="margin-left:20%">
+            <div class="w3-container bg-info w3-teal">
+                <br/> <br/>
+            </div>
+            <br/> <br/> <br/>
+
+            <div class="w3-container">
+                    <div class="p-3 mb-2 bg-secondary text-white">
+                    <h3 align="center">Listing</h3>
+                        </div>
+                <table class="table">
+
+                      <thead class="table-light">
+                        <tr>
+                          <th scope="col">Source</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Address</th>
+                          <th scope="col">Number</th>
+                            <th scope="col">Rating</th>
+                            <th scope="col">Listed</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+<!--                        <tr>-->
+<!--                          <th scope="row">1</th>-->
+<!--                          <td>Mark</td>-->
+<!--                          <td>Otto</td>-->
+<!--                          <td>@mdo</td>-->
+<!--                        </tr>-->
+                      </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
